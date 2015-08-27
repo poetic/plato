@@ -33,8 +33,10 @@ projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
 projects[features]                                              = 2.0
 
-projects[feeds]                                                 = 2.0-alpha8
-projects[feeds][patch][] = "https://www.drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
+projects[feeds][type] = "module"
+projects[feeds][download][type] = "file"
+projects[feeds][download][url] = http://ftp.drupal.org/files/projects/feeds-7.x-2.0-alpha8.tar.gz
+projects[feeds][patch][] = "http://www.drupal.org/files/feeds_remove_entities_not_in_feed-1470530-94.patch"
 
 projects[feeds_xpathparser]                                     = 1.0-beta4
 projects[feeds_tamper]                                          = 1.0-beta4
@@ -83,7 +85,7 @@ projects[nice_menus]                                            = 2.5
 projects[nodeblock]                                             = 1.3
 projects[node_clone]                                            = 1.0-rc1
 projects[openid_selector]                                       = 1.x-dev
-projects[openlayers]                                            = 2.0-beta7
+projects[openlayers]                                            = 2.0-beta11
 projects[panels]																								= 3.3
 projects[pathauto]                                              = 1.2
 projects[plupload]                                              = 1.2
