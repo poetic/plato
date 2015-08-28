@@ -147,7 +147,7 @@ libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEd
 libraries[colorbox][type] = "library"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][download][type] = "get"
-libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.x.zip"
+libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/archive/1.4.33.zip"
 
 # Openid Selector
 libraries[openid-selector][type] = "library"
