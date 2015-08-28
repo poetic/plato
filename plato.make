@@ -13,6 +13,7 @@ projects[boolean_icon]                                          = 1.1
 projects[calendar]                                              = 3.4
 projects[captcha]                                               = 1.0
 projects[ckeditor]                                              = 1.13
+projects[clientside_validation]									= 1.39
 projects[conditional_fields]                                    = 3.x-dev
 projects[cs_adaptive_image]                                     = 1.0
 projects[ctools]                                                = 1.3
@@ -29,6 +30,7 @@ projects[entityreference]                                       = 1.0
 projects[entity_view_mode]                                      = 1.0-rc1
 projects[eva]                                                   = 1.2
 projects[extlink]                                               = 1.13
+projects[faqfield]                                              = 1.1
 projects[fb]                                                    = 3.4-beta1
 projects[fboauth]                                               = 1.6
 projects[features]                                              = 2.0
@@ -42,6 +44,7 @@ projects[feeds_xpathparser]                                     = 1.0-beta4
 projects[feeds_tamper]                                          = 1.0-beta4
 projects[feeds_tamper_php]                                      = 1.0
 projects[fences]                                                = 1.0
+projects[field_collection]                                      = 1.0-beta7
 projects[field_group]                                           = 1.1
 projects[field_validation]                                      = 2.3
 projects[filefield_paths]                                       = 1.0-beta4
@@ -74,6 +77,7 @@ projects[media]                                                 = 1.3
 projects[menu_attributes]                                       = 1.0-rc2
 projects[menu_block]                                            = 2.3
 projects[menu_item_visibility]                                  = 1.0-beta1
+projects[menu_trail_by_path]                                  	= 2.0
 projects[metatag]                                               = 1.0-beta9
 projects[mimemail]                                              = 1.0-beta1
 projects[modernizr]																							= 3.1
@@ -99,6 +103,7 @@ projects[scroll_to_top]                                         = 2.1
 projects[special_menu_items]                                    = 2.0
 projects[social_buttons]                                        = 1.3
 projects[strongarm]                                             = 2.0
+projects[superfish]                                             = 1.9
 projects[tablefield]																						= 2.2
 projects[token]                                                 = 1.5
 projects[transliteration]                                       = 3.1
@@ -109,6 +114,7 @@ projects[views]                                                 = 3.7
 projects[views_accordion]                                       = 1.0-rc2
 projects[views_bulk_operations]                                 = 3.1
 projects[views_php]                                             = 1.x-dev
+projects[views_rss]                                             = 2.0-rc3
 projects[views_slideshow]                                       = 3.0
 projects[webform]                                               = 3.19
 projects[webform_multifile]                                     = 1.2
@@ -161,14 +167,22 @@ libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][download][type] = "git"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider.git"
 
-# Flexslider
+# Leaflet widget
 libraries[leaflet_widget][type] = "library"
 libraries[leaflet_widget][directory_name] = "leaflet_widget"
 libraries[leaflet_widget][download][type] = "git"
 libraries[leaflet_widget][download][url] = "https://github.com/tnightingale/Leaflet.widget.git"
 
 # Modernizr
-libraries[leaflet_widget][type] = "library"
-libraries[leaflet_widget][directory_name] = "modernizr"
-libraries[leaflet_widget][download][type] = "get"
-libraries[leaflet_widget][download][url] = "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"
+libraries[modernizr][type] = "library"
+libraries[modernizr][directory_name] = "modernizr"
+libraries[modernizr][download][type] = "get"
+libraries[modernizr][download][url] = "http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.min.js"
+
+# Superfish
+libraries[superfish][type] = "library"
+libraries[superfish][directory_name] = "superfish"
+libraries[superfish][download][type] = "git"
+libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal.git"
+libraries[superfish][download][branch] = "1.x"
+
