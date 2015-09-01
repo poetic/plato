@@ -1,10 +1,10 @@
 core = 7.x
 api = 2
 
-projects[drupal][version] = "7.26"
+projects[drupal][version] = "7.28"
 
 ; Profile
 projects[plato][type] = profile
 projects[plato][download][type] = git
-projects[plato][download][url] = https://github.com/RealLukeMartin/plato.git
-projects[plato][download][branch] = 3c1
+projects[plato][download][url] = https://github.com/poetic/plato.git
+projects[plato][download][branch] = 0.0.x
