@@ -55,6 +55,7 @@ dependencies[] = xmlsitemap_engines
 dependencies[] = googleanalytics
 dependencies[] = magic
 dependencies[] = html5_tools
+dependencies[] = create_zen
 
 ; Features
 ; ------------
