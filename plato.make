@@ -1,7 +1,7 @@
 ; Base make file settings:
 core = 7.x
 api = 2
-projects[drupal][version] = "7.26"
+projects[drupal][version] = "7.28"
 
 ; Modules:
 projects[addressfield]                                          = 1.0-beta4
@@ -12,7 +12,7 @@ projects[better_exposed_filters]                                = 3.0-beta3
 projects[boolean_icon]                                          = 1.1
 projects[calendar]                                              = 3.4
 projects[captcha]                                               = 1.0
-projects[ckeditor]                                              = 1.13
+projects[ckeditor]                                              = 1.14
 projects[clientside_validation]									= 1.39
 projects[conditional_fields]                                    = 3.x-dev
 projects[cs_adaptive_image]                                     = 1.0
@@ -68,6 +68,7 @@ projects[job_scheduler]                                         = 2.0-alpha3
 ; label_help needs to be checked for non dev before comp:
 projects[label_help]																						= 1.x-dev
 projects[leaflet]                                               = 1.0-beta3
+projects[leaflet_more_maps]										= 1.9
 projects[leaflet_widget]                                        = 1.0-beta2
 projects[libraries]                                             = 2.1
 projects[link]                                                  = 1.1
@@ -95,6 +96,8 @@ projects[pathauto]                                              = 1.2
 projects[plupload]                                              = 1.2
 projects[print]                                                 = 1.2
 projects[proj4js]                                               = 1.2
+projects[qtip]													= 1.5
+projects[redirect]												= 1.0-rc1
 projects[responsive_menus]                                      = 1.3
 projects[robotstxt]                                             = 1.1
 projects[rules]                                                 = 2.3
@@ -113,6 +116,7 @@ projects[variable]                                              = 2.2
 projects[views]                                                 = 3.7
 projects[views_accordion]                                       = 1.0-rc2
 projects[views_bulk_operations]                                 = 3.1
+projects[views_infinite_scroll]									= 1.1
 projects[views_php]                                             = 1.x-dev
 projects[views_rss]                                             = 2.0-rc3
 projects[views_slideshow]                                       = 3.0
