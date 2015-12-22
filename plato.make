@@ -70,6 +70,7 @@ projects[pathauto]                                              = 1.2
 projects[plupload]                                              = 1.2
 projects[proj4js]                                               = 1.2
 projects[qtip]                                                  = 1.5
+projects[responsive_menus]                                      = 1.3
 projects[robotstxt]                                             = 1.2
 projects[rules]                                                 = 2.3
 projects[search_api]                                            = 1.13
