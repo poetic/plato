@@ -98,7 +98,7 @@ projects[xmlsitemap]                                            = 2.0
 ; in the module folder but drush version 4 throws an error stopping platform creation
 projects[feeds_jsonpath_parser][type] = "module"
 projects[feeds_jsonpath_parser][download][type] = "git"
-projects[feeds_jsonpath_parser][download][url]="https://bitbucket.org/poetic/feeds_jsonpath_parser.git"
+projects[feeds_jsonpath_parser][download][url]="https://github.com/poetic/feeds_jsonpath_parser.git"
 
 ; this chunk of code is needed so geophp doesnt throw release history error:
 ; http://drupal.org/node/1986546 has some documantation:
