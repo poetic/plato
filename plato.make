@@ -157,7 +157,7 @@ libraries[colorbox][download][url] = "https://github.com/jackmoore/colorbox/arch
 libraries[openid-selector][type] = "library"
 libraries[openid-selector][directory_name] = "openid-selector"
 libraries[openid-selector][download][type] = "get"
-libraries[openid-selector][download][url] = ""https://github.com/RealLukeMartin/legacy-libs/blob/master/openid-selector.zip?raw=true"
+libraries[openid-selector][download][url] = "https://github.com/RealLukeMartin/legacy-libs/blob/master/openid-selector.zip?raw=true"
 
 # PDF generator
 libraries[dompdf][type] = "library"
